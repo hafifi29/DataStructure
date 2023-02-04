@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="StaffEntryLinkedList.jnlp">
+  <information>
+    <title>StaffEntryLinkedList</title>
+    <vendor>habib</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="StaffEntryLinkedList.jar" size="11651" download="eager" />
+    <jar href="lib\StaffEntryArrayList.jar" size="33282" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="StaffEntryLinkedList" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="staffentrylinkedlist.StaffEntryLinkedList"  name="StaffEntryLinkedList" />
+  <update check="always"/>
+</jnlp>
